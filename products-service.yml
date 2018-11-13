@@ -14,4 +14,6 @@ spring:
 #on peut le mettre aussi dans le module applicationn du microservice produit car ce module à une dependance du module implementation, c'est pour cela je l'ai mis à 48 (config-product.limite=4)
 config-product:
   limite: 2
-
+eureka.client.region: default
+eureka.client.registryFetchIntervalSeconds: 5
+eureka.client.serviceUrl.defaultZone: http://localhost:6061/eureka/
