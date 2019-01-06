@@ -14,9 +14,6 @@ spring:
 config-product:
   limite: 2
 
-eureka:
-  client:
-    region: default
-  registryFetchIntervalSeconds: 5
-  serviceUrl:
-    defaultZone: http://localhost:6061/eureka/
+eureka.client.region: default
+eureka.client.registryFetchIntervalSeconds: 5
+eureka.client.serviceUrl.defaultZone: http://localhost:6061/eureka/
