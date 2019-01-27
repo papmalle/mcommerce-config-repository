@@ -17,7 +17,7 @@ spring:
   #défini l'encodage pour data.sql
   datasource:
     sql-script-encoding: UTF-8
-    url: jdbc:mysql://localhost:3306/microservicedb
+    url: jdbc:mysql://localhost:3306/microservice_product
     username: papmalle
     password: bamako
 
