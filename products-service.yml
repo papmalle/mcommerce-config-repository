@@ -18,8 +18,10 @@ spring:
   datasource:
     sql-script-encoding: UTF-8
     url: jdbc:mysql://localhost:3306/microservice_product
-    username: papmalle
-    password: bamako
+    username: root
+#    username: papmalle
+#    password: bamako
+    password: 7153
 
 #on peut le mettre aussi dans le module applicationn du microservice produit car ce module à une dependance du module implementation, c'est pour cela je l'ai mis à 48 (config-product.limite=4)
 config-product:
