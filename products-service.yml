@@ -21,7 +21,7 @@ spring:
     username: root
 #    username: papmalle
 #    password: bamako
-    password: 7153
+    password: bamako
 
 #on peut le mettre aussi dans le module applicationn du microservice produit car ce module à une dependance du module implementation, c'est pour cela je l'ai mis à 48 (config-product.limite=4)
 config-product:
